@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--dialog-->
+    <color name="dialog_title_bg">#f1f1f1</color>
+    <color name="dialog_title_text">#3a3a3a</color>
+    <color name="dialog_body_text">#535353</color>
+    <color name="dialog_btn_gray">#3a3a3a</color>
+    <color name="dialog_btn_blue">#25a5ff</color>
+    <color name="dialog_btn_pressed">#f1f1f1</color>
+
+    <color name="shadow_black">#B4000000</color>
+    <color name="bg_dialog">#B44f7aaa</color>
+
+    <color name="orange">#ffb844</color>
+    <color name="black">#000000</color>
+    <color name="padding_dialog">#B4c5cee6</color>
+
+    <color name="tips_text">#48c3d9</color>
+    <!--<color name="main_item_bg">#9900074e</color>-->
+
+    <!-- start com.ctsi.esl.client.zxing -->
+    <color name="viewfinder_frame">#2477ab</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_view">#b0000000</color>
+    <!-- end com.ctsi.esl.client.zxing -->
+
+    <color name="blue">#48c3d9</color>
+    <color name="gray">#a0a0a0</color>
+    <color name="gray1">#e5e5e5</color>
+    <color name="dark_blue">#2e4f82</color>
+    <color name="red">#eb5768</color>
+    <color name="yellow">#fdebc5</color>
+    <color name="white">#f8f8f8</color>
+    <color name="white1">#f0f0f0</color>
+</resources>

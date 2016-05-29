@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    >
+    <TextView
+        android:id="@+id/sign_info"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:text="@string/sign_info"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/auto_scan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/auto_scan"
+            android:textSize="@dimen/normal_textsize"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+        <CheckBox
+            android:id="@+id/auto_sign"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/auto_sign"
+            android:textSize="@dimen/normal_textsize"
+            android:layout_marginRight="@dimen/activity_vertical_margin"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/begin_scan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="@dimen/button_min_height"
+            android:text="@string/begin_scan"/>
+        <Button
+            android:id="@+id/begin_bind"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="@dimen/button_min_height"
+            android:text="@string/begin_bind"/>
+        <Button
+            android:id="@+id/begin_sign"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/button_min_height"
+            android:layout_weight="1"
+            android:text="@string/begin_sign"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+

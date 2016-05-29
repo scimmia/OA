@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">移动签到</string>
+    <string name="begin_scan">扫一扫</string>
+    <string name="begin_sign">签到</string>
+    <string name="sign_info">签到信息:</string>
+    <string name="auto_scan">自动扫一扫</string>
+    <string name="auto_sign">自动签到</string>
+    <string name="error_field_required">请填写内容</string>
+    <string name="password">请输入密码</string>
+    <string name="username">请输入账号</string>
+    <string name="binding">验证</string>
+    <string name="begin_bind">设置</string>
+</resources>
